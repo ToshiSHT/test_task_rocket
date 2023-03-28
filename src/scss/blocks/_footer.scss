@@ -1,0 +1,16 @@
+.footer {
+    height: 144px;
+    background-color: #08664f;
+    &_content {
+        display: flex;
+        height: 144px;
+        justify-content: space-between;
+        align-items: center;
+        align-content: baseline;
+        &_social {
+            width: 135px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

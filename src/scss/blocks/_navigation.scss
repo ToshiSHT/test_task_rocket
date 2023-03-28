@@ -1,0 +1,26 @@
+.navigation {
+    nav {
+        display: block;
+        height: 43px;
+    }
+    &_list {
+        padding-top: 10px;
+    }
+    height: 43px;
+    background-color: #1fa181;
+    &_item {
+        display: inline-block;
+        margin-right: 30px;
+        transition: all 200ms ease;
+        a {
+            font-size: 16px;
+            color: #fff;
+        }
+        &:hover {
+            color: #ffa000; /* Меняем цвет текста */
+            -webkit-text-shadow: 2px 2px 2px #373535;
+            -moz-text-shadow: 2px 2px 2px #373535;
+            text-shadow: 2px 2px 2px #373535;
+        }
+    }
+}
